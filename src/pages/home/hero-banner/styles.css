@@ -1,0 +1,57 @@
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .swiper-button-next{
+    color: rgb(0, 0, 0);
+    width: 4vw;
+    height: 4vw;
+    background: #ffffff69;
+    border-radius: 50%;
+    position: absolute;
+    top: 90%;
+  }
+.swiper-button-prev{
+    color: rgb(0, 0, 0);
+    width: 4vw;
+    height: 4vw;
+    background: #ffffff69;
+    border-radius: 50%;
+    position: absolute;
+    top: 90%;
+    left: 87%;
+}
+/* .swiper-button-prev:after {
+    font-size: 1rem;
+    content: 'prev';
+}
+.swiper-button-next:after{
+    font-size: 1rem;
+    content: 'next';
+} */
+@media (min-width: 768px) {
+    .swiper-button-next,
+    .swiper-button-prev {
+      font-size: 15px;
+    }
+  
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+      font-size: 2rem; /* Larger font size for button labels on larger screens */
+    }
+  }
